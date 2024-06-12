@@ -1,10 +1,16 @@
 import "./App.css";
-import Home from "./components/Home";
+import CopyTrading from "./components/CopyTrading";
+import FocusOnTrading from "./components/FocusOnTrading";
+import Ready from "./components/Ready";
+import TopFeatures from "./components/TopFeatures";
 
 function App() {
   return (
     <div>
-      <Home />
+      <FocusOnTrading />
+      <TopFeatures />
+      <CopyTrading />
+      <Ready />
     </div>
   );
 }
